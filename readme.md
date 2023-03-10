@@ -17,19 +17,6 @@
 
 ### 3. Go to the line where the function named "processDeliveries" is located on your script. We will convert this into a function expression.
 
-<p>To do that, we will create a constant variable and name it "processDeliveries" and set the function expression to this variable. When that is finish, we can uncomment the code inside.</p>
-
-```javascript
-...
-const processDeliveries = (items_obj) => {
-  store_inventory[items_obj.inventory_index].quantity += items_obj.quantity;
-  store_inventory[items_obj.inventory_index].price_$ = items_obj.price_$;
-};
-...
-```
-
-### 4. Go to the line where the function named "processDeliveries" is located on your script. We will convert this into a function expression.
-
 <p>To do that, we will create a constant variable and name it "processDeliveries" and set the function expression to this variable.</p>
 
 ```javascript
@@ -41,7 +28,7 @@ const processDeliveries = function(items_obj) {
 ...
 ```
 
-### 5. We will check this one first, let's uncomment some `console.log()` functions listed below:
+### 4. We will check this one first, let's uncomment some `console.log()` functions listed below:
 
 ```javascript
 console.log("Delivered items have been added to the inventory.");
@@ -49,7 +36,7 @@ console.log("New inventory summary:");
 console.log(store_inventory);
 ```
 
-### 6. When we run this code, the result should be like this:
+### 5. When we run this code, the result should be like this:
 
 ```txt
 Delivered items have been added to the inventory.
@@ -61,9 +48,9 @@ New inventory summary:
 ]
 ```
 
-### 7. Now then when everything is running perfectly, let's continue on the next function. Let's comment all of the `console.log()` functions again first.
+### 6. Now then when everything is running perfectly, let's continue on the next function. Let's comment all of the `console.log()` functions again first.
 
-### 8. Find where the "productSummary" function on your script is located and we will convert this into an arrow function.
+### 7. Find where the "productSummary" function on your script is located and we will convert this into an arrow function.
 
 <p>To do that, we will create a constant variable and name it "productSummary" and set the arrow expression to this variable.</p>
 
@@ -81,13 +68,13 @@ const productSummary = (items_obj) => {
 ...
 ```
 
-### 9. We will check the previosly updated function, let's uncomment a `console.log()` function below:
+### 8. We will check the previosly updated function, let's uncomment a `console.log()` function below:
 
 ```javascript
 console.log(report_summary);
 ```
 
-### 10. When we run this code, the result should be like this:
+### 9. When we run this code, the result should be like this:
 
 ```txt
 [
