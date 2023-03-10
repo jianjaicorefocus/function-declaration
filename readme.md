@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Odd & Even Numbers 💻🖥️</h1>
+<h1 style="text-align: center;">Function Declaration💻🖥️</h1>
 
 # Introduction
 
